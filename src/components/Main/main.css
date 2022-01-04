@@ -1,0 +1,100 @@
+.main{
+    background-color: #dff9fb;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    font-family: "Dancing Script", cursive;
+    padding-bottom: 50px;
+}
+.content{
+    margin-top: 50px;
+    width: 80%;
+    height: 80%;
+    /* background-color: red; */
+    text-align: center;
+    display: flex;
+}
+.wrap1{
+    width: 70%;
+    /* background-color:  brown; */
+}
+.title{
+    padding: 10px;
+    text-align: left;
+    margin-left: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.list_1{
+    display: flex;
+    /* flex-flow: row; */
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.content_list1{
+    margin: 10px;
+    width: 150px;
+}
+.content_list1 img{
+    width: 120px;
+    height: 150px;
+    border-radius: 5px;
+}
+.content_1 .name{
+    text-align: left;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.content_1 .author{
+    margin-left: 20px;
+    text-align: left;
+    font-size: 12px;
+}
+/*  */
+.wrap2{
+        width: 30%;
+        /* background-color: blueviolet; */
+        text-align: left;
+        padding-left: 10px;
+}
+.title_2{
+    padding: 10px;
+    text-align: left;
+    margin-left: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.wrap2 .child {
+    width: 80%;
+    padding-left: 30px;
+    display: flex;
+}
+.wrap2 .child .content_1 .img_1{
+    width: 100px;
+    height: 130px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.wrap2 .child .content_1 {
+    position: relative;
+}
+.wrap2 .child .content_1 .number{
+    position: absolute;
+    /* right: 2px; */
+    top: 15px;
+    left: 7px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.child .content_2{
+    padding: 20px;
+}
+
+

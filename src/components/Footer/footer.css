@@ -1,0 +1,10 @@
+.footer{
+    height: 50px;
+    background-color: #c7ecee;
+}
+.footer div{
+    text-align: center;
+padding-top: 10px;
+font-family: "Dancing Script", cursive;
+
+}

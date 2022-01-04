@@ -1,0 +1,62 @@
+.container{
+    height: 50px;
+    background-color: #2d3436;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+}
+.logo{
+    font-family: "Dancing Script", cursive;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo span{
+    margin-left: 5px;
+}
+.zone_search{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.icon_search{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 7px;
+}
+.search{
+    font-family: "Dancing Script", cursive;
+    width: 70vh;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 35px;
+}
+.sign{
+    color: aliceblue;
+}
+.sign span{
+    display: flex;
+    align-items: center;
+}
+.sign span a{
+    color: antiquewhite ;
+    text-decoration: none;
+    margin: auto 5px;
+}
+.img{
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    background-size: cover;
+    margin-right: 5px;
+}
+.profile{
+    cursor: pointer;
+}
+
+.sign_out{
+    margin-left: 5px;
+}
